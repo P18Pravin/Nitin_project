@@ -1,24 +1,9 @@
-import java.util.Scanner;
+# Input: Get two numbers from the user
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
 
-public class Addition {
-    public static void main(String[] args) {
-        // Create a Scanner object to read input
-        Scanner scanner = new Scanner(System.in);
-        
-        // Prompt the user to enter two numbers
-        System.out.print("Enter the first number: ");
-        double num1 = scanner.nextDouble();
-        
-        System.out.print("Enter the second number: ");
-        double num2 = scanner.nextDouble();
-        
-        // Add the numbers
-        double sum = num1 + num2;
-        
-        // Display the result
-        System.out.println("The sum of " + num1 + " and " + num2 + " is: " + sum);
-        
-        // Close the scanner
-        scanner.close();
-    }
-}
+# Addition of the two numbers
+sum = num1 + num2
+
+# Output: Display the result
+print(f"The sum of {num1} and {num2} is: {sum}")
